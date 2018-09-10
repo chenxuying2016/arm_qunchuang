@@ -1,0 +1,16 @@
+#ifndef _CA310_H_
+#define _CA310_H_
+
+#define PROBE_STATU_OK				(0)
+#define PROBE_STATU_TIMEOUT			(-100)
+#define PROBE_STATU_OTHER_ERROR		(-200)
+#define PROBE_STATU_COMMAND_ERROR	(-10)
+#define PROBE_STATU_OUT_RANGE		(-50)
+#define PROBE_STATU_LOW_LUMI		(-52)
+
+#define FLOAT_INVALID_FLICK_VALUE	(999.9999)
+
+#define INVALID_FLICK_VALUE			(99999.99)
+
+#endif
+
